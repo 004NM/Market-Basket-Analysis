@@ -8,5 +8,7 @@ The top ten rules passing the support and confidence criteria are declared as st
 The support metric assures that there is a minimum fraction of transactions in the data that contain an itemset. 
 On the other hand, the confidence metric measures how often item Y appears in the transactions that also have item X. 
 If the algorithms are able to find rules that satisfy the given support and confidence metrics, then it means that there is an association among the items of the basket.
-In python, MLxtend library is used for rule mining. It is a great data mining tool, which contains important association rule mining packages such as apriori and association_rule. 
+
+
+In python, mlxtend library is used for rule mining. It is a great data mining tool, which contains important association rule mining packages such as apriori and association_rule. 
 In R, the arules library was used for the association rules extraction. It is designed for manipulating, analyzing, and representing transactional data. 
